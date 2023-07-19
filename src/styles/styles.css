@@ -1,0 +1,13 @@
+.truncate {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.bi-heart-fill {
+    fill: #ff000078;
+}
+.bi-heart-fill.liked {
+    fill: red;
+}
